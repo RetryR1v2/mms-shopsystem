@@ -22,6 +22,7 @@ Citizen.CreateThread(function()
 end)
 
 RegisterNetEvent('mms-shopsystem:client:shopmenu', function()
+if Config.Cat1Active == true and Config.Cat2Active == true and Config.Cat3Active == true then
     lib.registerContext(
         {
             id = 'shopmenu',
@@ -50,6 +51,127 @@ RegisterNetEvent('mms-shopsystem:client:shopmenu', function()
         }
     )
     lib.showContext('shopmenu')
+elseif Config.Cat1Active == true and Config.Cat2Active == true and Config.Cat3Active == false then
+    lib.registerContext(
+        {
+            id = 'shopmenu',
+            title = ('Shop'),
+            position = 'top-right',
+            options = {
+                {
+                    title = (Config.categorie1 ..  '.'),
+                    description = (Config.categorie1 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie1,
+                },
+                {
+                    title = (Config.categorie2 ..  '.'),
+                    description = (Config.categorie2 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie2,
+                },
+            }
+        }
+    )
+    lib.showContext('shopmenu')
+elseif Config.Cat1Active == true and Config.Cat2Active == false and Config.Cat3Active == true then
+    lib.registerContext(
+        {
+            id = 'shopmenu',
+            title = ('Shop'),
+            position = 'top-right',
+            options = {
+                {
+                    title = (Config.categorie1 ..  '.'),
+                    description = (Config.categorie1 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie1,
+                },
+                {
+                    title = (Config.categorie3 ..  '.'),
+                    description = (Config.categorie3 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie3,
+                },
+            }
+        }
+    )
+    lib.showContext('shopmenu')
+elseif Config.Cat1Active == false and Config.Cat2Active == true and Config.Cat3Active == true then
+    lib.registerContext(
+        {
+            id = 'shopmenu',
+            title = ('Shop'),
+            position = 'top-right',
+            options = {
+                {
+                    title = (Config.categorie2 ..  '.'),
+                    description = (Config.categorie2 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie2,
+                },
+                {
+                    title = (Config.categorie3 ..  '.'),
+                    description = (Config.categorie3 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie3,
+                },
+            }
+        }
+    )
+    lib.showContext('shopmenu')
+elseif Config.Cat1Active == true and Config.Cat2Active == false and Config.Cat3Active == false then
+    lib.registerContext(
+        {
+            id = 'shopmenu',
+            title = ('Shop'),
+            position = 'top-right',
+            options = {
+                {
+                    title = (Config.categorie1 ..  '.'),
+                    description = (Config.categorie1 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie1,
+                },
+            }
+        }
+    )
+    lib.showContext('shopmenu')
+elseif Config.Cat1Active == false and Config.Cat2Active == true and Config.Cat3Active == false then
+    lib.registerContext(
+        {
+            id = 'shopmenu',
+            title = ('Shop'),
+            position = 'top-right',
+            options = {
+                {
+                    title = (Config.categorie2 ..  '.'),
+                    description = (Config.categorie2 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie2,
+                },
+            }
+        }
+    )
+    lib.showContext('shopmenu')
+elseif Config.Cat1Active == false and Config.Cat2Active == false and Config.Cat3Active == true then
+    lib.registerContext(
+        {
+            id = 'shopmenu',
+            title = ('Shop'),
+            position = 'top-right',
+            options = {
+                {
+                    title = (Config.categorie3 ..  '.'),
+                    description = (Config.categorie3 .. '.' ),
+                    icon = 'fas fa-shop',
+                    event = 'mms-shopsystem:client:' .. Config.categorie3,
+                },
+            }
+        }
+    )
+    lib.showContext('shopmenu')
+end
 end)
 
 ----------------------------- CAT 1

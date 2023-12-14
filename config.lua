@@ -7,14 +7,20 @@ Config.shops = {
         coords = vector3(-355.77, 775.41, 116.24),  --- Maischer Manzanita Post
         showblip = true,
         blipName = 'Shop Valentine',
-        blipSprite = 'blip_summer_feed',
+        blipSprite = 'blip_ambient_loan_shark',
         blipScale = 4.5
     },
     
     -- add more as required
 }
 
--------- Categorie 1 ------------
+--------------------- Turn Categories on or Off atm empty Categories are Off
+
+Config.Cat1Active = true
+Config.Cat2Active = false
+Config.Cat3Active = false
+
+-------- Categorie 1 ------------  
 
 Config.categorie1 = 'Mining'
 
@@ -68,88 +74,88 @@ Config.Cat1Item12Price = 1
 
 -------- Categorie 2 ------------
 
-Config.categorie2 = 'Leerer Shop'
+Config.categorie2 = 'Empty Shop'
 
-Config.Cat2Item1Label =  'Leerer Platz1'
+Config.Cat2Item1Label =  'Empty Place1'
 Config.Cat2Item1Item = 'none'
 Config.Cat2Item1Price = 0
 
-Config.Cat2Item2Label =  'Leerer Platz2'
+Config.Cat2Item2Label =  'Empty Place2'
 Config.Cat2Item2Item = 'none'
 Config.Cat2Item2Price = 0
 
-Config.Cat2Item3Label =  'Leerer Platz3'
+Config.Cat2Item3Label =  'Empty Place3'
 Config.Cat2Item3Item = 'none'
 Config.Cat2Item3Price = 0
 
-Config.Cat2Item4Label = 'Leerer Platz4'
+Config.Cat2Item4Label = 'Empty Place4'
 Config.Cat2Item4Item = 'none'
 Config.Cat2Item4Price = 0
 
-Config.Cat2Item5Label = 'Leerer Platz5'
+Config.Cat2Item5Label = 'Empty Place5'
 Config.Cat2Item5Item = 'none'
 Config.Cat2Item5Price = 0
 
-Config.Cat2Item6Label = 'Leerer Platz6'
+Config.Cat2Item6Label = 'Empty Place6'
 Config.Cat2Item6Item = 'none'
 Config.Cat2Item6Price = 0
 
-Config.Cat2Item7Label = 'Leerer Platz7'
+Config.Cat2Item7Label = 'Empty Place7'
 Config.Cat2Item7Item = 'none'
 Config.Cat2Item7Price = 0
 
-Config.Cat2Item8Label = 'Leerer Platz8'
+Config.Cat2Item8Label = 'Empty Place8'
 Config.Cat2Item8Item = 'none'
 Config.Cat2Item8Price = 0
 
-Config.Cat2Item9Label = 'Leerer Platz9'
+Config.Cat2Item9Label = 'Empty Place9'
 Config.Cat2Item9Item = 'none'
 Config.Cat2Item9Price = 0
 
-Config.Cat2Item10Label = 'Leerer Platz10'
+Config.Cat2Item10Label = 'Empty Place10'
 Config.Cat2Item10Item = 'none'
 Config.Cat2Item10Price = 0
 
 -------- Categorie 3 ------------
 
-Config.categorie3 = 'Leerer Shop'
+Config.categorie3 = 'Empty Shop'
 
-Config.Cat3Item1Label =  'Leerer Platz1'
+Config.Cat3Item1Label =  'Empty Place1'
 Config.Cat3Item1Item = 'none'
 Config.Cat3Item1Price = 0
 
-Config.Cat3Item2Label =  'Leerer Platz2'
+Config.Cat3Item2Label =  'Empty Place2'
 Config.Cat3Item2Item = 'none'
 Config.Cat3Item2Price = 0
 
-Config.Cat3Item3Label =  'Leerer Platz3'
+Config.Cat3Item3Label =  'Empty Place3'
 Config.Cat3Item3Item = 'none'
 Config.Cat3Item3Price = 0
 
-Config.Cat3Item4Label = 'Leerer Platz4'
+Config.Cat3Item4Label = 'Empty Place4'
 Config.Cat3Item4Item = 'none'
 Config.Cat3Item4Price = 0
 
-Config.Cat3Item5Label = 'Leerer Platz5'
+Config.Cat3Item5Label = 'Empty Place5'
 Config.Cat3Item5Item = 'none'
 Config.Cat3Item5Price = 0
 
-Config.Cat3Item6Label = 'Leerer Platz6'
+Config.Cat3Item6Label = 'Empty Place6'
 Config.Cat3Item6Item = 'none'
 Config.Cat3Item6Price = 0
 
-Config.Cat3Item7Label = 'Leerer Platz7'
+Config.Cat3Item7Label = 'Empty Place7'
 Config.Cat3Item7Item = 'none'
 Config.Cat3Item7Price = 0
 
-Config.Cat3Item8Label = 'Leerer Platz8'
+Config.Cat3Item8Label = 'Empty Place8'
 Config.Cat3Item8Item = 'none'
 Config.Cat3Item8Price = 0
 
-Config.Cat3Item9Label = 'Leerer Platz9'
+Config.Cat3Item9Label = 'Empty Place9'
 Config.Cat3Item9Item = 'none'
 Config.Cat3Item9Price = 0
 
-Config.Cat3Item10Label = 'Leerer Platz10'
+Config.Cat3Item10Label = 'Empty Place10'
 Config.Cat3Item10Item = 'none'
 Config.Cat3Item10Price = 0
